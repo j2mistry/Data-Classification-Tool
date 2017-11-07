@@ -1,0 +1,37 @@
+=== Run information ===
+
+   Method:      Naive Bayes
+   Relation:   customer
+   Instances: 14.0
+   Attributes    5
+	age
+	income
+	student
+	credit_rating
+	buys_computer
+
+   Time taken to build model:16ms 
+=== Summary ===
+
+
+Correctly Classified Instances : 0.0   0.00%
+Incorrectly Classified Instances : 1.0   100.00%
+
+
+=== Detailed Accuracy By Class ===
+
+
+	  TP Rate   FP Rate   Precision   Recall  Class
+	     0.00         NaN          NaN           0.00     yes
+	     NaN         1.00          0.00           NaN     no
+
+Weighted Avg.	    NaN         NaN          NaN           NaN     
+
+=== Confusion Matrix ===
+     yes   no
+     0.0   1.0
+     0.0   0.0
+
+ === Evaluation Details===
+    AGE	INCOME	STUDENT	CREDIT_RATING	NO             YES            ACTUAL         PREDICTED      
+youth	medium	yes	fair		0.0069         0.0282         no             yes            
